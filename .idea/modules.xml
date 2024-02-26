@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/extra-junit.iml" filepath="$PROJECT_DIR$/extra-junit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/extra-junitest.iml" filepath="$PROJECT_DIR$/.idea/extra-junitest.iml" />
     </modules>
   </component>
 </project>
