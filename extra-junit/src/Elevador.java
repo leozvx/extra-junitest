@@ -3,14 +3,15 @@ private int id;
 private double cargaMaxima = 200;
 private double cargaAtual;
 private boolean sinalAlerta;
-    public Elevador(int id, double cargaMaxima, double cargaAtual, boolean sinalAlerta) {
+
+    public Elevador() {
         this.id = id;
         this.cargaMaxima = cargaMaxima;
         this.cargaAtual = cargaAtual;
         this.sinalAlerta = sinalAlerta;
     }
 
-    public double entrarNoElevador(double peso) {
+    public double entrarNoElevador(Double peso) {
         Calculadora calc = new Calculadora();
         return this.cargaAtual = calc.somar(cargaAtual, peso);
     }
