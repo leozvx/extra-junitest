@@ -1,10 +1,10 @@
 public class Elevador {
 private int id;
-private double cargaMaxima = 201.0;
+private double cargaMaxima;
 private double cargaAtual;
 private boolean sinalAlerta;
 
-    public Elevador() {
+    public Elevador(double cargaMaxima) {
         this.id = id;
         this.cargaMaxima = cargaMaxima;
         this.cargaAtual = cargaAtual;
