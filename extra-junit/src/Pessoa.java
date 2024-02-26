@@ -1,7 +1,7 @@
 public class Pessoa {
 
 private String nome;
-private Double peso;
+private double peso;
     public Pessoa(String nome, Double peso) {
         this.nome = nome;
         this.peso = peso;
