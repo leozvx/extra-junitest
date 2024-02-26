@@ -1,6 +1,6 @@
 public class Elevador {
 private int id;
-private double cargaMaxima = 200;
+private double cargaMaxima = 201.0;
 private double cargaAtual;
 private boolean sinalAlerta;
 
